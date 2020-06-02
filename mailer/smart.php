@@ -14,12 +14,12 @@ $mail->CharSet = 'utf-8';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mail.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'grebyonkin_web_site@mail.ru';                 // Наш логин
-$mail->Password = 'Driver658';                           // Наш пароль от ящика
+$mail->Username = 'grebienkin.a@mail.ru';                 // Наш логин grebyonkin_web_site@mail.ru
+$mail->Password = '03042324alex03042324';                           // Наш пароль от ящика Driver658
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('grebyonkin_web_site@mail.ru', 'My_Portfolio');   // От кого письмо 
+$mail->setFrom('grebienkin.a@mail.ru', 'My_Portfolio');   // От кого письмо 
 $mail->addAddress('arcanumalexsir@gmail.com');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
