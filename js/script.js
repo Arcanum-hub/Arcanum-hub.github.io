@@ -37,7 +37,8 @@ $(document).ready(function(){
             rules: {
                 name: {
                     required: true,
-                    minlength: 2
+                    minlength: 2,
+                    maxlength: 20
                 },
                 phone: "required",
                 email: {
